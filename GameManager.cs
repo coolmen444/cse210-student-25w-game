@@ -19,7 +19,7 @@ class GameManager
     public void Run()
     {
         Raylib.InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, _title);
-        // If using sound, you can un-comment this line and the one below.
+        // If using sound, un-comment the lines to init and close the audio device
         // Raylib.InitAudioDevice();
 
         InitializeGame();
