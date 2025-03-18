@@ -18,6 +18,7 @@ class GameManager
     /// </summary>
     public void Run()
     {
+        Raylib.SetTargetFPS(60);
         Raylib.InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, _title);
         // If using sound, un-comment the lines to init and close the audio device
         // Raylib.InitAudioDevice();
